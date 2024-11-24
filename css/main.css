@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:wght@400;500;700;800&family=Rubik+Wet+Paint&family=Tiny5&display=swap');
+
+@media (min-width: 610px) {
+	.maxim img {
+		margin-top: 50px;
+	}
+}
+
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+	color: #fff;
+	font-size: 16px;
+	background: #000;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+.wrapper {
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(3,1,0,1) 100%, rgba(0,212,255,1) 100%, rgba(255,248,0,1) 100%);
+	width: 100%;
+	overflow-x: hidden;
+	
+}
+
+.container {
+	width: 1000;
+	margin: 0 auto;
+}
+
+.container-a {
+	width: 100%;
+	margin: 0 auto;
+	background: #01ad94;
+}
+
+header {
+	padding: 50px 0;
+	width: 100%;
+}
+
+header .logo {
+	text-transform: uppercase;
+	font-size: 29px;
+	font-weight: 800;
+	margin-left: 100px;
+}
+
+footer .blocks .logo {
+	text-transform: uppercase;
+	font-size: 29px;
+	font-weight: 800;
+}
+
+header nav {
+	float: right;
+	width: 50%
+}
+
+header nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	z-index: 2;
+	position: relative;
+}
+
+header nav ul li {
+	display: inline-block;
+}
+
+header nav ul li.active::after {
+	content: "";
+	display: block;
+	width: 40px;
+	height: 5px;
+	background: #DC7000;
+	border-radius: 10px;
+	position: relative;
+	top: 10px;
+	left: -15px;
+}
+
+header nav ul li a {
+	color: #fff;
+	font-size: 20px;
+}
+
+header nav ul li:not(.active):not(.btn) a:hover {
+	border-bottom: 5px solid #DC7000;
+}
+
+header nav ul li.btn a {
+	background: #DC7000;
+	padding: 9px 17px;
+	border-radius: 5px;
+	transition: all 500ms ease;
+	margin-right: 100px;
+}
+
+header nav ul li.btn a:hover{
+	background: #a02604
+}
+
+.wrapper hr {
+	margin-bottom: 30px;
+	border: 0;
+	height: 0.6px;
+	background: #ccc;
+	: 
+}
+
+.maxim {
+	width: 530px;
+	padding-top: 70px;
+}
+
+.maxim h1 {
+	color: #086600;
+	position: relative;
+	font-size: 50px;
+	font-weight: 600;
+	top: -100px;
+}
+
+.maxim h3 {
+	position: relative;
+	
+	font-weight: 500;
+	line-height: 170%;
+	margin: 10px 0;
+	font-size: 45px;
+	text-align: center;
+	right: -45%;
+}
+
+.maxim h4 {
+	position: relative;
+	top: -100px;
+	font-weight: 500;
+	line-height: 170%;
+	margin: 10px 0;
+	font-size: 25px;
+	width: 70%;
+}
+
+.maxim p {
+	position: relative;
+	width: 200%;
+	font-weight: 300;
+	line-height: 150%;
+	margin-bottom: 50px;
+	font-size: 30px;
+}
+
+.maxim img {
+	position: absolute;
+	top: 150px;
+	right: 100px;
+	width: 650px;
+	border-radius: 35px;
+	width: 500px;
+}
+
+footer {
+	background: #000;
+	padding: 50px 0;
+}
+
+footer .blocks {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+footer .blocks p {
+	width: 250px;
+	margin: 15px 0;
+}
+
+footer .blocks h4 {
+	font-weight: 500;
+	font-size: 17px;
+}
+
+footer .blocks ul {
+	list-style: none;
+}
+
+footer .blocks ul li {
+	margin-top: 7px;
+	opacity: 0.8;
+}
+
+footer hr {
+	margin: 30px 0;
+	border: 0;
+	height: 0.6px;
+	background: #ccc;
+}
+
+footer>p {
+	text-align: center;
+}
